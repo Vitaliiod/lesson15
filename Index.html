@@ -1,4 +1,4 @@
-<!DOCTYrePE html>
+<!DOCTYPE html>
   <html lang="en">
 
   <head>
@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="lesson15bootstrap\assets\all.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="assets\all.css">
+
+
 
     <script type="tex"></script>
 
@@ -21,6 +21,7 @@
         <div class="container">
           <div class="nav-wrapper">
             <a href="#" class="brand-logo">Fb</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li>
                 <div class="row ">
@@ -35,12 +36,18 @@
           </ul>
         </div>
         </div>
+
+
+
       </nav>
+
+
+
     </header>
     <main>
       <div class="container">
         <div class="row">
-          <div class="col s12 m2">
+          <div class="col s12 m2 hide-on-med-and-down">
             <ul>
               <li class="main-menu">
                 <i class="material-icons icon-blue">assignment_ind</i><a class="lighten-3-text " href="#!">My
@@ -63,6 +70,30 @@
               </li>
             </ul>
           </div>
+
+          <!-- sidenav -->
+              <ul class="sidenav" id="mobile-demo">
+                <li class="main-menu">
+                <i class="material-icons icon-blue">assignment_ind</i><a class="lighten-3-text " href="#!">My
+                  Profile</a>
+              </li>
+              <li>
+                <i class="material-icons icon-blue">chrome_reader_mode</i><a class="lighten-3-text" href="#!">News</a>
+              </li>
+              <li>
+                <i class="material-icons icon-blue">message</i><a class="lighten-3-text" href="#!">Mesages</a>
+              </li>
+              <li>
+                <i class="material-icons icon-blue">child_care</i><a class="lighten-3-text" href="#!">Friends</a>
+              </li>
+              <li>
+                <i class="material-icons icon-blue">event</i><a class="lighten-3-text" href="#!">Events</a>
+              </li>
+              <li>
+                <i class="material-icons icon-blue">perm_media</i><a class="lighten-3-text" href="#!">Media</a>
+              </li>
+              </ul>
+
           <div class="col s12 m4">
 
             <div class="card z-depth-4">
@@ -125,32 +156,7 @@
             </div>
           </div>
 
-          <!-- <div class="col s12 m7">
-          <div class="card z-depth-4">
-            <div class="container">
-              <div class="card-info ">
-                <h4 class="">Петро Петренко</h4>
-                <div class="card-birthday">
-                  <div class="row">
-                    <div class="col s12 m4">
-                      <p class="grey-text text-lighten-1">Birthday:</p>
-                    </div>
-                    <div class="col s12 m8">
-                      <p class="blue-text text-lighten-2">September 17</p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col s12 m4">
-                      <p class="grey-text text-lighten-1">City:</p>
-                    </div>
-                    <div class="col s12 m8">
-                      <p class="blue-text text-lighten-2">Odessa</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
+
 
           <div class="row">
             <div class="col s12 m6">
@@ -221,7 +227,7 @@
 
           </div>
     </main>
-
+       <script type="text/javascript" src="assets/all.js"></script>
   </body>
 
   </html>
