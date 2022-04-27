@@ -15,3 +15,12 @@ i.icon-blue {
 .btn-small {
     width: 100%;
 }
+
+.friend-block {
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.poster {
+    padding: 20px 0px 0px 20px;
+}
